@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="studentBean" class="com.sh.pojo.Student">  
+    <property name="name" value="Shobhit Sachdeva"></property>
+</bean>
+<bean id="politicianBean" class="com.sh.pojo.Politician">
+    <constructor-arg value='1234' type='int'></constructor-arg>
+    <constructor-arg value='Haldiram'></constructor-arg>
+    
+</bean>
+</beans> 
