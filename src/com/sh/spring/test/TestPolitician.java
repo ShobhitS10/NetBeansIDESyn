@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sh.test;
+package com.sh.spring.test;
 
-import com.sh.pojo.Politician;
+import com.sh.spring.pojo.Politician;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;

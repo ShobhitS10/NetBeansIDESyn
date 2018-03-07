@@ -1,4 +1,0 @@
-Classes:
-- Student: Creating object using IoC
-- Politician: Dependency Injection using Constructor
-- Employee: Dependency Injection using Setter
